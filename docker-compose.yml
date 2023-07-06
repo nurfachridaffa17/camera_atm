@@ -8,4 +8,4 @@ services:
       - "8765:8765"
     volumes:
       - ./App:/App
-      - .env:/App/.env
+      - .env:/.env
