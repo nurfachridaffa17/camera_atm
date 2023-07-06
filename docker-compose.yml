@@ -1,0 +1,11 @@
+version: "3"
+services:
+  camera1:
+    build: 
+      context: ./App
+      dockerfile: Dockerfile
+    ports:
+      - "8765:8765"
+    volumes:
+      - ./App:/App
+      - .env:/App/.env
