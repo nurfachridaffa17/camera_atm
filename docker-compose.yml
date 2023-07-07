@@ -9,3 +9,5 @@ services:
     volumes:
       - ./App:/App
       - .env:/.env
+      - ./App/image:/App/image
+    restart: always
